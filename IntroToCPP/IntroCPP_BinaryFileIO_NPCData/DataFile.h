@@ -7,21 +7,24 @@
 class DataFile
 {
 public:
-	struct Record
+	struct Record // the Record
 	{
-		Image image;
-		std::string name;
-		int age;
+		Image image; // holds the records image
+		std::string name; // holds the records name
+		int age; // holds the records age
 	};
 
 private:
 
-	int recordCount;
-	std::vector<Record*> records;	// delete this vector. Load only the required record 
+	int recordCount; // initial variable for the recordCount
+
+	Record* currentRecord = nullptr; // initial variable for the currentRecord is set to nullptr
+
+	std::string filename = "npc_data.dat"; // the filename
 
 
 public:
-	DataFile();
+	DataFile(); //-------------------------------------------------------------------------- functions in DataFile.cpp
 	~DataFile();
 
 	void AddRecord(const std::string& imageFilename, const std::string& name, int age);
@@ -33,7 +36,7 @@ public:
 	void Load(const std::string& filename);
 
 private:
-	void Clear();
+	void Clear(); //------------------------------------------------------------------------ 
 
 };
 

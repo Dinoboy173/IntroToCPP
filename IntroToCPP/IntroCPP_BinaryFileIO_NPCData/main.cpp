@@ -26,21 +26,21 @@ int main(int argc, char* argv[])
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    int screenWidth = 800;
-    int screenHeight = 450;
+    int screenWidth = 800; // screen width
+    int screenHeight = 450; // screen height
 
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window"); // makes window with screen width and height and a name
 
-    DataFile data;
-    int currentRecordIdx = 0;
+    DataFile data; // puts the DataFile class into a variable
+    int currentRecordIdx = 0; // the current record the program looking at
+    
+    data.Load("npc_data.dat"); // name of the file
 
-    data.Load("npc_data.dat");
-
-    DataFile::Record* currentRecord = data.GetRecord(currentRecordIdx);
-    Texture2D recordTexture = LoadTextureFromImage(currentRecord->image);
+    DataFile::Record* currentRecord = data.GetRecord(currentRecordIdx); // creates a Record using the GetRecord function
+    Texture2D recordTexture = LoadTextureFromImage(currentRecord->image); // gets the texture for the current record 
 
 
-    SetTargetFPS(60);
+    SetTargetFPS(60);// limits fps to 60
     //--------------------------------------------------------------------------------------
 
     // Main game loop
@@ -51,26 +51,26 @@ int main(int argc, char* argv[])
         // TODO: Update your variables here
         //----------------------------------------------------------------------------------
 
-        if (IsKeyPressed(KEY_LEFT))
+        if (IsKeyPressed(KEY_LEFT)) // goes to previous record
         {
             currentRecordIdx--;
-            if (currentRecordIdx < 0)
+            if (currentRecordIdx < 0) // checks if the currentRecordIdx does out of bounds of the list
             {
-                currentRecordIdx = 0;
+                currentRecordIdx = 0; // stops the currentRecordIdx from going out of bounds of the list
             }
-            currentRecord = data.GetRecord(currentRecordIdx);
-            recordTexture = LoadTextureFromImage(currentRecord->image);
+            currentRecord = data.GetRecord(currentRecordIdx); // gets previous record
+            recordTexture = LoadTextureFromImage(currentRecord->image); // gets image for previous record
         }
 
-        if (IsKeyPressed(KEY_RIGHT))
+        if (IsKeyPressed(KEY_RIGHT)) // goes to next record
         {
             currentRecordIdx++;
-            if (currentRecordIdx >= data.GetRecordCount())
+            if (currentRecordIdx >= data.GetRecordCount())              // checks if the currentRecordIdx goes out of bounds of the list
             {
-                currentRecordIdx = data.GetRecordCount();
+                currentRecordIdx = data.GetRecordCount() - 1;            // stops the program from exceeding the amount of records
             }
-            currentRecord = data.GetRecord(currentRecordIdx);
-            recordTexture = LoadTextureFromImage(currentRecord->image);
+            currentRecord = data.GetRecord(currentRecordIdx);            // gets next record
+            recordTexture = LoadTextureFromImage(currentRecord->image); // gets image for next record
         }
 
 
@@ -78,15 +78,15 @@ int main(int argc, char* argv[])
         //----------------------------------------------------------------------------------
         BeginDrawing();
 
-        ClearBackground(RAYWHITE);
+        ClearBackground(RAYWHITE); // draws white background
 
-        DrawTexture(recordTexture, 300, 50, WHITE);
+        DrawTexture(recordTexture, 300, 50, WHITE); // draws the record texture
 
-        DrawText("NAME", 10, 50, 20, LIGHTGRAY);
-        DrawText(currentRecord->name.c_str(), 10, 80, 20, LIGHTGRAY);
+        DrawText("NAME", 10, 50, 20, LIGHTGRAY); // draws NAME
+        DrawText(currentRecord->name.c_str(), 10, 80, 20, LIGHTGRAY); // draws the name
 
-        DrawText("AGE", 10, 120, 20, LIGHTGRAY);
-        DrawText(std::to_string(currentRecord->age).c_str(), 10, 150, 20, LIGHTGRAY);
+        DrawText("AGE", 10, 120, 20, LIGHTGRAY); // draws AGE
+        DrawText(std::to_string(currentRecord->age).c_str(), 10, 150, 20, LIGHTGRAY); // draws the age
 
         EndDrawing();
         //----------------------------------------------------------------------------------
