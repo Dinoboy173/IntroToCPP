@@ -9,45 +9,49 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayGUI_Widgets", "RayGUI_Wi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assessments", "Assessments", "{B59EF303-1282-4A76-9578-754E0314902A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assessment01_TicTacToe", "Assessment01_TicTacToe\Assessment01_TicTacToe.vcxproj", "{60A95102-78FC-4562-B5C3-627DDAB2425C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assessment02_PlayerProfileDB", "Assessment02_PlayerProfileDB\Assessment02_PlayerProfileDB.vcxproj", "{C6635D9D-77C0-4973-9A08-98EE838217AE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroCPP_BinaryFileIO_NPCData", "IntroCPP_BinaryFileIO_NPCData\IntroCPP_BinaryFileIO_NPCData.vcxproj", "{7544D2EA-300C-4AEB-AA7F-438762AE001F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{5BF9644A-3216-44E8-AAE9-95A62EBAA313}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise01_HelloWorld", "Exercise01_HelloWorld\Exercise01_HelloWorld.vcxproj", "{5869F482-40F9-4926-A900-09CFE2CC20D3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assessment01_TicTacToe", "Assessments\Assessment01_TicTacToe\Assessment01_TicTacToe.vcxproj", "{60A95102-78FC-4562-B5C3-627DDAB2425C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise02_VariableSizes", "Exercise02_VariableSizes\Exercise02_VariableSizes.vcxproj", "{64DBC3E1-A555-4D4D-BE00-30291BC83A51}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assessment02_PlayerProfileDB", "Assessments\Assessment02_PlayerProfileDB\Assessment02_PlayerProfileDB.vcxproj", "{C6635D9D-77C0-4973-9A08-98EE838217AE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise03_FortuneTeller", "Exercise03_FortuneTeller\Exercise03_FortuneTeller.vcxproj", "{8CDFDB80-2B14-4555-9BDB-00792B439840}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroCPP_BinaryFileIO_NPCData", "Assessments\IntroCPP_BinaryFileIO_NPCData\IntroCPP_BinaryFileIO_NPCData.vcxproj", "{7544D2EA-300C-4AEB-AA7F-438762AE001F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise05_IsAVowel", "Exercise05_IsAVowel\Exercise05_IsAVowel.vcxproj", "{E32E5E50-24A9-449D-92B3-844FECD419B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise01_HelloWorld", "Exercises\Exercise01_HelloWorld\Exercise01_HelloWorld.vcxproj", "{5869F482-40F9-4926-A900-09CFE2CC20D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise06_StringLength", "Exercise06_StringLength\Exercise06_StringLength.vcxproj", "{964C14EE-7A8A-4461-9314-1BFA1DA32974}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise02_VariableSizes", "Exercises\Exercise02_VariableSizes\Exercise02_VariableSizes.vcxproj", "{64DBC3E1-A555-4D4D-BE00-30291BC83A51}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise07_Calculator", "Exercise07_Calculator\Exercise07_Calculator.vcxproj", "{4D6EDAF4-D859-4FFB-BFDD-DCD1B3F1023A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise03_FortuneTeller", "Exercises\Exercise03_FortuneTeller\Exercise03_FortuneTeller.vcxproj", "{8CDFDB80-2B14-4555-9BDB-00792B439840}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise08_Greeting", "Exercise08_Greeting\Exercise08_Greeting.vcxproj", "{CEEFD242-5F0A-4763-8047-35DA4263F6AE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise04_HiLow", "Exercises\Exercise04_HiLow\Exercise04_HiLow.vcxproj", "{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise09_RecursiveFibonacci", "Exercise09_RecursiveFibonacci\Exercise09_RecursiveFibonacci.vcxproj", "{17E73F1C-2E29-4FBB-B57C-5C635C282BCD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise05_IsAVowel", "Exercises\Exercise05_IsAVowel\Exercise05_IsAVowel.vcxproj", "{E32E5E50-24A9-449D-92B3-844FECD419B3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise10_RecursivePower", "Exercise10_RecursivePower\Exercise10_RecursivePower.vcxproj", "{899D3677-2CE0-4746-9520-DDEF3AA2A6D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise06_StringLength", "Exercises\Exercise06_StringLength\Exercise06_StringLength.vcxproj", "{964C14EE-7A8A-4461-9314-1BFA1DA32974}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise11_SortedArrayBinarySearch", "Exercise10_SortedArrayBinarySearch\Exercise10_SortedArrayBinarySearch.vcxproj", "{1E479793-6795-4476-BE70-BD9F79966E2F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise07_Calculator", "Exercises\Exercise07_Calculator\Exercise07_Calculator.vcxproj", "{4D6EDAF4-D859-4FFB-BFDD-DCD1B3F1023A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise13_TicTacToeCheckWinner", "Exercise12_TicTacToeCheckWinner\Exercise12_TicTacToeCheckWinner.vcxproj", "{7C1130EE-515C-4C9A-848A-8D9007AF8F01}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise08_Greeting", "Exercises\Exercise08_Greeting\Exercise08_Greeting.vcxproj", "{CEEFD242-5F0A-4763-8047-35DA4263F6AE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise12_DragonFoodTracker", "Exercise11_DragonFoodTracker\Exercise11_DragonFoodTracker.vcxproj", "{262494A5-14ED-4585-9F3E-BAE228A6D75C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise09_RecursiveFibonacci", "Exercises\Exercise09_RecursiveFibonacci\Exercise09_RecursiveFibonacci.vcxproj", "{17E73F1C-2E29-4FBB-B57C-5C635C282BCD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise15_FileIO_numbers", "Exercise14_FileIO_numbers\Exercise14_FileIO_numbers.vcxproj", "{F331AFC0-6587-4CF3-889E-8C8700E36288}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise10_RecursivePower", "Exercises\Exercise10_RecursivePower\Exercise10_RecursivePower.vcxproj", "{899D3677-2CE0-4746-9520-DDEF3AA2A6D4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise16_FileIO_array", "Exercise15_FileIO_array\Exercise15_FileIO_array.vcxproj", "{3D70F2C5-F6E2-482D-88E3-198191F06BD4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise11_SortedArrayBinarySearch", "Exercises\Exercise11_SortedArrayBinarySearch\Exercise11_SortedArrayBinarySearch.vcxproj", "{1E479793-6795-4476-BE70-BD9F79966E2F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise17_FileIO_Struct", "Exercise17_FileIO_Struct\Exercise17_FileIO_Struct.vcxproj", "{94CA54AF-C0FA-4811-A4F6-F8D318F65290}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise12_DragonFoodTracker", "Exercises\Exercise12_DragonFoodTracker\Exercise12_DragonFoodTracker.vcxproj", "{262494A5-14ED-4585-9F3E-BAE228A6D75C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise19_FileIO_Structs2", "Exercise18_FileIO_Structs2\Exercise18_FileIO_Structs2.vcxproj", "{D191F95A-DA68-4B15-9BFA-53B9ECD01D29}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise13_TicTacToeCheckWinner", "Exercises\Exercise13_TicTacToeCheckWinner\Exercise13_TicTacToeCheckWinner.vcxproj", "{7C1130EE-515C-4C9A-848A-8D9007AF8F01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise14_RockPaperScissors", "Exercises\Exercise14_RockPaperScissors\Exercise14_RockPaperScissors.vcxproj", "{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise15_FileIO_numbers", "Exercises\Exercise15_FileIO_numbers\Exercise15_FileIO_numbers.vcxproj", "{F331AFC0-6587-4CF3-889E-8C8700E36288}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise16_FileIO_array", "Exercises\Exercise16_FileIO_array\Exercise16_FileIO_array.vcxproj", "{3D70F2C5-F6E2-482D-88E3-198191F06BD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise17_FileIO_Struct", "Exercises\Exercise17_FileIO_Struct\Exercise17_FileIO_Struct.vcxproj", "{94CA54AF-C0FA-4811-A4F6-F8D318F65290}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise18_FileIO_Structs2", "Exercises\Exercise18_FileIO_Structs2\Exercise18_FileIO_Structs2.vcxproj", "{D191F95A-DA68-4B15-9BFA-53B9ECD01D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +143,16 @@ Global
 		{8CDFDB80-2B14-4555-9BDB-00792B439840}.Release|x64.Build.0 = Release|x64
 		{8CDFDB80-2B14-4555-9BDB-00792B439840}.Release|x86.ActiveCfg = Release|Win32
 		{8CDFDB80-2B14-4555-9BDB-00792B439840}.Release|x86.Build.0 = Release|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Debug|x64.ActiveCfg = Debug|x64
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Debug|x64.Build.0 = Debug|x64
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Debug|x86.Build.0 = Debug|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Release|Any CPU.ActiveCfg = Release|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Release|x64.ActiveCfg = Release|x64
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Release|x64.Build.0 = Release|x64
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Release|x86.ActiveCfg = Release|Win32
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91}.Release|x86.Build.0 = Release|Win32
 		{E32E5E50-24A9-449D-92B3-844FECD419B3}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{E32E5E50-24A9-449D-92B3-844FECD419B3}.Debug|x64.ActiveCfg = Debug|x64
 		{E32E5E50-24A9-449D-92B3-844FECD419B3}.Debug|x64.Build.0 = Debug|x64
@@ -209,16 +223,6 @@ Global
 		{1E479793-6795-4476-BE70-BD9F79966E2F}.Release|x64.Build.0 = Release|x64
 		{1E479793-6795-4476-BE70-BD9F79966E2F}.Release|x86.ActiveCfg = Release|Win32
 		{1E479793-6795-4476-BE70-BD9F79966E2F}.Release|x86.Build.0 = Release|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x64.ActiveCfg = Debug|x64
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x64.Build.0 = Debug|x64
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x86.ActiveCfg = Debug|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x86.Build.0 = Debug|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|Any CPU.ActiveCfg = Release|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x64.ActiveCfg = Release|x64
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x64.Build.0 = Release|x64
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x86.ActiveCfg = Release|Win32
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x86.Build.0 = Release|Win32
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Debug|x64.ActiveCfg = Debug|x64
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Debug|x64.Build.0 = Debug|x64
@@ -229,6 +233,26 @@ Global
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Release|x64.Build.0 = Release|x64
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Release|x86.ActiveCfg = Release|Win32
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C}.Release|x86.Build.0 = Release|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x64.ActiveCfg = Debug|x64
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x64.Build.0 = Debug|x64
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Debug|x86.Build.0 = Debug|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x64.ActiveCfg = Release|x64
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x64.Build.0 = Release|x64
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x86.ActiveCfg = Release|Win32
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01}.Release|x86.Build.0 = Release|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Debug|x64.ActiveCfg = Debug|x64
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Debug|x64.Build.0 = Debug|x64
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Debug|x86.Build.0 = Debug|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Release|x64.ActiveCfg = Release|x64
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Release|x64.Build.0 = Release|x64
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Release|x86.ActiveCfg = Release|Win32
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5}.Release|x86.Build.0 = Release|Win32
 		{F331AFC0-6587-4CF3-889E-8C8700E36288}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{F331AFC0-6587-4CF3-889E-8C8700E36288}.Debug|x64.ActiveCfg = Debug|x64
 		{F331AFC0-6587-4CF3-889E-8C8700E36288}.Debug|x64.Build.0 = Debug|x64
@@ -280,6 +304,7 @@ Global
 		{5869F482-40F9-4926-A900-09CFE2CC20D3} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{64DBC3E1-A555-4D4D-BE00-30291BC83A51} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{8CDFDB80-2B14-4555-9BDB-00792B439840} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
+		{AC5686BF-C83B-432D-8BAA-F66D4FB1AD91} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{E32E5E50-24A9-449D-92B3-844FECD419B3} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{964C14EE-7A8A-4461-9314-1BFA1DA32974} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{4D6EDAF4-D859-4FFB-BFDD-DCD1B3F1023A} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
@@ -287,8 +312,9 @@ Global
 		{17E73F1C-2E29-4FBB-B57C-5C635C282BCD} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{899D3677-2CE0-4746-9520-DDEF3AA2A6D4} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{1E479793-6795-4476-BE70-BD9F79966E2F} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
-		{7C1130EE-515C-4C9A-848A-8D9007AF8F01} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{262494A5-14ED-4585-9F3E-BAE228A6D75C} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
+		{7C1130EE-515C-4C9A-848A-8D9007AF8F01} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
+		{557BB1CF-8F8B-4A8A-91C4-D6D6276AB2E5} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{F331AFC0-6587-4CF3-889E-8C8700E36288} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{3D70F2C5-F6E2-482D-88E3-198191F06BD4} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
 		{94CA54AF-C0FA-4811-A4F6-F8D318F65290} = {5BF9644A-3216-44E8-AAE9-95A62EBAA313}
